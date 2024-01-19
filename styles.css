@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto&family=Roboto+Mono:ital,wght@0,200;1,200&display=swap');
+
+* {
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+    margin-top: 20px;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+    margin-left: 40px;
+    font-size: 12px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.sidebar {
+    background: red;
+    width: 30%;
+    height: 100vh;
+    position: fixed;
+    z-index: -1;
+}
+.content-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Courier New', Courier, monospace;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+.logo-container{
+    font-family: 'Times New Roman', Times, serif;
+}
+.main-img{
+    width: 55%;
+    margin-top: 4rem;
+    margin-left: 6rem;
+}
+
+.main-title{
+    transform: rotate(-90deg);
+    margin-top: 10rem;
+    font-size: 3rem;
+    font-family: 'Times New Roman', cursive;
+}
+.main-info{
+    transform: rotate(-90deg);
+    font-family: sans-serif;
+    text-align: center;
+    width: 200px;
+    margin-bottom: 5rem;
+    margin-left: 7rem;
+}
